@@ -1,5 +1,5 @@
 <template>
     <div>
-        <i class="material-icons">home</i>
+        <ProfileTheActions />
     </div>
 </template>

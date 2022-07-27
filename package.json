@@ -9,7 +9,7 @@
   "devDependencies": {
     "ant-design-vue": "^3.2.10",
     "nuxt": "latest",
+    "sass": "^1.54.0",
     "unplugin-vue-components": "^0.21.2"
-  },
-  "dependencies": {}
+  }
 }
