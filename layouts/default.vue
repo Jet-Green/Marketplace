@@ -12,7 +12,7 @@
 
         <TheHeader />
         <a-row type="flex" justify="center">
-            <a-col :xs="22" :lg="16">
+            <a-col :span="22">
                 <slot />
             </a-col>
         </a-row>
