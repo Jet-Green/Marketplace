@@ -94,6 +94,20 @@ body {
     border: 1px solid #f6f6f6;
     padding: 32px;
 
+    .ant-tabs-top {
+        width: 100%;
+    }
+
+    .ant-tabs-nav-list {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ant-tabs-tab {
+        font-size: 32px;
+    }
+
     .card {
         display: flex;
         align-items: center;
@@ -101,6 +115,5 @@ body {
 
         cursor: pointer;
 
-        font-size: 32px;
     }
 }

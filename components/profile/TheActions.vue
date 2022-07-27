@@ -1,19 +1,12 @@
+<script setup>
+let activeKey = ref(1)
+</script>
 <template>
-    <a-row class="actions" type="flex" justify="space-between">
-        <a-col :xs="24" :md="8">
-            <div class="card">
-                Мои товары
-            </div>
-        </a-col>
-        <a-col :xs="24" :md="8">
-            <div class="card">
-                Заказы
-            </div>
-        </a-col>
-        <a-col :xs="24" :md="8">
-            <div class="card">
-                Мой магазин
-            </div>
-        </a-col>
+    <a-row class="actions">
+        <a-tabs v-model:activeKey="activeKey">
+            <a-tab-pane key="1" tab="Добавить товар">Content of Tab Pane 1</a-tab-pane>
+            <a-tab-pane key="2" tab="Заказы" force-render>Content of Tab Pane 2</a-tab-pane>
+            <a-tab-pane key="3" tab="Мой магазин">Content of Tab Pane 3</a-tab-pane>
+        </a-tabs>
     </a-row>
 </template>
