@@ -7,6 +7,9 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "nuxt": "latest"
-  }
+    "ant-design-vue": "^3.2.10",
+    "nuxt": "latest",
+    "unplugin-vue-components": "^0.21.2"
+  },
+  "dependencies": {}
 }
