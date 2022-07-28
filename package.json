@@ -11,5 +11,8 @@
     "nuxt": "latest",
     "sass": "^1.54.0",
     "unplugin-vue-components": "^0.21.2"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }

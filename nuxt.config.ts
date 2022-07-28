@@ -6,6 +6,10 @@ export default defineNuxtConfig({
     nitro: {
         preset: 'node-server'
     },
+    serverMiddleware: [
+        // Will register file from project server-middleware directory to handle /server-api/* requests
+        { path: "/api", handler: "~/server-middleware/index.js" },
+    ],
     meta: {
         link: [
             {
